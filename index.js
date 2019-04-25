@@ -1,12 +1,13 @@
 let express = require('express');
 
 let server = express();
+let PORT = process.env.PORT || 3000;
 
 server.use(express.static("public"));
 server.get("/", function(req, res){
-    res.send("hello world");
+    res.send("hello world from Kassidy's website.");
 });
 
-server.listen(3000, function(req, res){
+server.listen(PORT, function(req, res){
     console.log("listening on port 3000");
 });
