@@ -1,0 +1,11 @@
+{
+  "name": "kassidy-website",
+  "version": "1.0.0",
+  "description": "Wellness website developed by Kassidy Hammer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kassidy Hammer",
+  "license": "ISC"
+}
